@@ -113,3 +113,6 @@
 1 6,7 * * * python3 /jd/scripts/jd_zqfl.py >> /jd/log/jd_zqfl.log 2>&1
 59 23 * * * python3 /jd/scripts/jd_blueCoin.py >> /jd/log/jd_blueCoin.log 2>&1
 1 0 * * * python3 /jd/scripts/jd_qjd.py >> /jd/log/jd_qjd.log 2>&1
+1 0 * * * node jd/scripts/jd_joypark_task.js >> /jd/log/jd_joypark_task.js 2>&1
+1 0 * * * node jd/scripts/jd_joypark_open.js >> /jd/log/jd_joypark_open.js 2>&1
+1 0 * * * node jd/scripts/jd_joypark_joy.py >> /jd/log/jd_joypark_joy 2>&1

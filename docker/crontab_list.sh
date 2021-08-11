@@ -116,4 +116,3 @@
 1 6,7 * * * python3 /jd/scripts/jd_zqfl.py >> /jd/log/jd_zqfl.log 2>&1
 59 23 * * * python3 /jd/scripts/jd_blueCoin.py >> /jd/log/jd_blueCoin.log 2>&1
 1 0 * * * python3 /jd/scripts/jd_qjd.py >> /jd/log/jd_qjd.log 2>&1
-* * * node /jd/scripts/codde.sh >> /jd/log/code.log 2>&1

@@ -20,7 +20,7 @@ new Env('全民抢京豆 8.6-8.16');
 # print("全民抢京豆(7.22-7.31）--活动已结束\nTG交流 https://t.me/topstyle996\nTG频道 https://t.me/TopStyle2021")
 # exit(0)
 #ck 优先读取【JDCookies.txt】 文件内的ck  再到 ENV的 变量 JD_COOKIE='ck1&ck2' 最后才到脚本内 cookies=ck
-cookies = 'pt_key=AAJhF0V0ADC7-xvA9458242TQpM3D0OPWuCt290nUSduYZRXhovT-laCkDBXD-ItO6t7jT44q2I;pt_pin=jd_4ad90b7b48215;pt_key=AAJhDlfbADDHJ_tz7EGWJhLMsZcDgmPZflSjmPFMRYVycJRS4tjh9hXZti3yQpGoKJf9dmVp68U;pt_pin=jd_eghjzgEXIDaB;pt_key=AAJhDldAADDWY9-K_MUFAFwh532q3AMLDJAdwZLDq2Ym28niDObd13KgTIZWYKhcnwTjFLxdkXo;pt_pin=jd_6f0312f98fbbc;'
+cookies = 'pt_key=AAJhF0u3ADBkX-izYhPlQPzVroPiBJnJqzJMGy2VxoqSbkcFfA1D04L_N5vH4NdhbBYf8FoFx4U;pt_pin=jd_4ad90b7b48215;pt_key=AAJhDlfbADDHJ_tz7EGWJhLMsZcDgmPZflSjmPFMRYVycJRS4tjh9hXZti3yQpGoKJf9dmVp68U;pt_pin=jd_eghjzgEXIDaB;pt_key=AAJhDldAADDWY9-K_MUFAFwh532q3AMLDJAdwZLDq2Ym28niDObd13KgTIZWYKhcnwTjFLxdkXo;pt_pin=jd_6f0312f98fbbc;'
 qjd_zlzh = ['jd_4ad90b7b48215','jd_eghjzgEXIDaB','jd_6f0312f98fbbc']
 
 # Env环境设置 通知服务

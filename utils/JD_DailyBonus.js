@@ -1,11 +1,14 @@
 /*
+
 京东多合一签到脚本
+
 更新时间: 2021.08.15 19:00 v2.1.0
 有效接口: 20+
 脚本兼容: QuantumultX, Surge, Loon, JSBox, Node.js
 电报频道: @NobyDa 
 问题反馈: @NobyDa_bot 
 如果转载: 请注明出处
+
 如需获取京东金融签到Body, 可进入"京东金融"APP (iOS), 在"首页"点击"签到"并签到一次, 返回抓包app搜索关键字 h5/m/appSign 复制请求体填入json串数据内即可
 */
 
@@ -1414,7 +1417,7 @@ function TotalBean() {
   return new Promise(resolve => {
     if (disable("Qbear")) return resolve()
     $nobyda.get({
-      url: 'https://me-api.jd.com/user_new/info/GetJDUserInfoUnion?sceneval=2',
+      url: 'https://me-api.jd.com/user_new/info/GetJDUserInfoUnion',
       headers: {
         Cookie: KEY
       }

@@ -1,5 +1,5 @@
 /*
-cron "0 0,12 * * *" jd_bean_change.js
+cron "0 9,21 * * *" jd_bean_change.js
 */
 
 //更新by ccwav,20210821
